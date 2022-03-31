@@ -1,0 +1,89 @@
+body {
+  background-color: rgb(200, 198, 192);
+  font-family: Verdana;
+}
+
+.navbar {
+  width: 100%;
+  padding-left: 8%;
+  overflow: auto;
+}
+
+.Page {
+  background-color: rgb(255, 249, 249);
+  margin-left: 8%;
+  margin-right: 12%;
+  height: 20%;
+  border-radius: 10px;
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: rgb(225, 241, 232);
+  text-decoration: none;
+  font-size: 20px;
+  width: 25%; /* Four links of equal widths */
+  text-align: center;
+  margin-top: 15px;
+}
+.navbar a:hover {
+  background-color: #1a282e;
+}
+
+img {
+  border-radius: 8px;
+  margin-left: 2%;
+  margin-right: 2%;
+  float: right;
+}
+.videoRuler {
+  float: right;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+h1 {
+  padding-top: 1%;
+  margin-left: 2%;
+}
+p {
+  margin-left: 2%;
+  margin-right: 1%;
+  padding-bottom: 3%;
+}
+.breadcrumb {
+  margin-left: 7%;
+  margin-top: 2%;
+  padding: 4px 20px;
+  list-style: none;
+}
+
+.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+
+.breadcrumb li + li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+
+.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
