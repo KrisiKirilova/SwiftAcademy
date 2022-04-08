@@ -1,0 +1,305 @@
+body {
+  margin: 0;
+  padding: 0;
+  font: 20px/32px D-DIN-Medium, Arial, Verdana, sans-serif;
+  width: 100%;
+  background-color: black;
+  background-image: url("./Img/f9Background.jpg");
+  height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*...NAVIGATION...*/
+
+nav {
+  width: 100%;
+  height: 100px;
+  padding: 10px 90px;
+}
+
+nav .logo {
+  padding: 20px 20px;
+  height: 30px;
+  float: left;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li a {
+  margin-top: 2%;
+  line-height: 80px;
+  color: #fff;
+  padding: 12px 30px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#ShopBtn {
+  margin-left: 27%;
+}
+
+#hamburger {
+  margin-top: 0.7%;
+  padding: 12px 12px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin-top: 14%;
+  font-size: 80px;
+  font-style: normal;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 1%;
+  font-style: normal;
+}
+
+/*...FIRST TABLE ...LOUNCHES INFORMATION*/
+
+.Numbers {
+  padding-top: 30%;
+  color: white;
+  text-align: center;
+  padding-bottom: 10%;
+}
+
+.Numbers th {
+  font-size: 100px;
+  padding-bottom: 1%;
+}
+
+.Numbers td {
+  font-size: 20px;
+}
+
+/*...TABLE 2 ....INFORMATION ABOUT FALCON9*/
+
+.TableImg {
+  padding-top: 1%;
+  color: white;
+}
+
+.intraduction {
+  line-height: 2.6;
+  font-size: 16px;
+  text-align: left;
+  padding-left: 10%;
+}
+
+.txtImg {
+  float: left;
+}
+
+/*...TABLE 3 ....OVERVIEW FOR FALCON 9*/
+
+.TableFalcon .sureName {
+  color: white;
+  font: 20px/32px D-DIN-Medium, Arial, Verdana, sans-serif;
+  font-weight: 400;
+  border-bottom: none;
+  text-align: left;
+}
+
+.TableFalcon .preview {
+  margin-top: 1%;
+  color: white;
+  font-weight: 400;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-bottom: none;
+  padding-bottom: 5%;
+}
+
+.TableFalcon {
+  width: 100%;
+  padding-left: 10%;
+  font-size: small;
+  padding-bottom: 3%;
+  color: white;
+}
+
+.TableFalcon th {
+  height: 70px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.TableFalcon td {
+  height: 70px;
+  text-align: right;
+  border-bottom: 1px solid #ddd;
+}
+
+.meatballsMenu {
+  display: block;
+  margin-left: 95%;
+  padding-bottom: 2%;
+}
+
+.Collide {
+  padding-top: 5%;
+  width: 89%;
+  margin-top: 2%;
+}
+
+.VideoControl {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*...TABLE 4....INFORMATION ABOUT MERLIN...*/
+
+.Collide2 {
+  padding-top: 3%;
+  width: 100%;
+  padding-left: 5%;
+  padding-bottom: 3%;
+  color: white;
+  text-align: left;
+  border-bottom: none;
+}
+
+.Collide2 .parts {
+  color: white;
+  font: 20px/32px D-DIN-Medium, Arial, Verdana, sans-serif;
+  font-weight: 400;
+  border-bottom: none;
+  text-align: left;
+  padding-top: 2%;
+  margin-bottom: 2%;
+  height: 7px;
+}
+
+.Collide2 .name {
+  color: white;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 50px;
+  font-family: Arial, Verdana, sans-serif;
+  border-bottom: none;
+  padding-bottom: 0%;
+  height: 20px;
+}
+
+.Collide2 .summary {
+  padding-top: 2%;
+  line-height: 2.6;
+  font-size: 16px;
+  text-align: left;
+  border-bottom: none;
+}
+
+.Collide2 th {
+  height: 70px;
+  text-align: left;
+  font-size: small;
+}
+
+.Collide2 td {
+  height: 70px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.Collide2 .information {
+  border-bottom: none;
+  margin-top: 1%;
+}
+
+.Collide2 th {
+  border-bottom: none;
+}
+
+.Merlin {
+  border-bottom: none;
+}
+
+.TableMerlin th {
+  border-bottom: 1px solid #ddd;
+}
+
+.TableMerlin td {
+  border-bottom: 1px solid #ddd;
+}
+/*.........IMAGES SECTION.........*/
+
+.Polaroid {
+  color: white;
+  text-align: center;
+}
+
+/*........CONTACTS AND BUTTONS.........*/
+
+.email {
+  color: white;
+  padding-top: 7%;
+  text-align: center;
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: solid;
+  padding: 16px;
+  text-align: center;
+  font-size: 14px;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#btn {
+  text-align: center;
+  padding-bottom: 7%;
+  padding-top: 1%;
+}
+
+.btn1 {
+  margin-right:9px;
+}
+
+.btn2 {
+  margin-left:9px;
+}
+
+.BottomNavBar {
+  width: 100%;
+  height: 100px;
+  padding: 10px 90px;
+  margin-left: 20%;
+}
+
+.BottomNavBar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.BottomNavBar ul li a {
+  margin-top: 2%;
+  line-height: 80px;
+  color: #fff;
+  padding: 12px 30px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
